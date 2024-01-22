@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Site</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+<div class="shopping-list-container">
+    <div class="shopping-list-toggle">Shopping List</div>
+    <div class="shopping-list-details">
+        <ul>
+            <li>
+                <span class="item-name">Product 2</span>
+                <input class="item-quantity" type="number" value="1">
+                <span class="item-price">$19.99</span>
+            </li>
+        </ul>
+        <div class="checkout">
+            <span class="total-price">Total: $19.99</span>
+            <button class="checkout-button">Checkout</button>
+        </div>
+    </div>
+</div>
+
+<header>
+    <h3>My Shopping Site</h3>
+    <nav>
+        <ul>
+            <li><a href="index.html" id="nav-home">Home</a></li>
+            <li id="breadcrumb"></li>
+        </ul>
+    </nav>
+</header>
+<!-- Category List -->
+<div id="category-list">
+    <h3>Categories</h3>
+    <ul>
+        <li class="category-item" data-category="All">All</li>
+        <li class="category-item" data-category="Category1">Category 1</li>
+        <li class="category-item" data-category="Category2">Category 2</li>
+        <li class="category-item" data-category="Category3">Category 3</li>
+    </ul>
+</div>
+
+<section class="products">
+    <!-- Product 1 -->
+    <div class="product" data-category="Category1">
+        <a href="product1.html">
+            <img src="images/product1.jpg" alt="Product 1">
+            <h2>Countdown to Departure Series Quicksand Acrylic Pendant</h2>
+        </a>
+        <p>$9.99</p>
+        <button>Add to Cart</button>
+    </div>
+    <!-- Product 2 -->
+    <div class="product" data-category="Category1">
+        <a href="product2.html">
+            <img src="images/product2.jpg" alt="Product 2">
+            <h2>Product 2</h2>
+        </a>
+        <p>$19.99</p>
+        <button>Add to Cart</button>
+    </div>
+    <!-- Product 3 -->
+    <div class="product" data-category="Category1">
+        <a href="product3.html">
+            <img src="images/product3.jpg" alt="Product 3">
+            <h2>Product 3</h2>
+        </a>
+        <p>$29.99</p>
+        <button>Add to Cart</button>
+    </div>
+    <!-- Product 4 -->
+    <div class="product" data-category="Category2">
+        <a href="product4.html">
+            <img src="images/product4.jpg" alt="Product 4">
+            <h2>Product 4</h2>
+        </a>
+        <p>$39.99</p>
+        <button>Add to Cart</button>
+    </div>
+    <!-- Product 5 -->
+    <div class="product" data-category="Category2">
+        <a href="product5.html">
+            <img src="images/product5.jpg" alt="Product 5">
+            <h2>Product 5</h2>
+        </a>
+        <p>$49.99</p>
+        <button>Add to Cart</button>
+    </div>
+    <!-- Product 6 -->
+    <div class="product" data-category="Category3">
+        <a href="product6.html">
+            <img src="images/product6.jpg" alt="Product 6">
+            <h2>Product 6</h2>
+        </a>
+        <p>$59.99</p>
+        <button>Add to Cart</button>
+    </div>
+    <!-- Product 7 -->
+    <div class="product" data-category="Category3">
+        <a href="product7.html">
+            <img src="images/product7.jpg" alt="Product 7">
+            <h2>Product 7</h2>
+        </a>
+        <p>$69.99</p>
+        <button>Add to Cart</button>
+    </div>
+    <!-- Product 8 -->
+    <div class="product">
+        <a href="product8.html" data-category="Category3">
+            <img src="images/product8.jpg" alt="Product 8">
+            <h2>Product 8</h2>
+        </a>
+        <p>$79.99</p>
+        <button>Add to Cart</button>
+    </div>
+</section>
+
+<footer>
+    <p>1155197473 LIAN Jialu</p>
+</footer>
+
+<script src="myScript.js"></script>
+
+</body>
+</html>
